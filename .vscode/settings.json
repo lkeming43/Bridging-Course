@@ -1,6 +1,7 @@
 {
     "C_Cpp.default.compilerPath": "/usr/bin/clang",
     "files.associations": {
-        "STACK2.C": "cpp"
+        "STACK2.C": "cpp",
+        "ENCODE.C": "cpp"
     }
 }
