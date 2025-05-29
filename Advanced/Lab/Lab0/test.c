@@ -1,17 +1,9 @@
-#include<stdio.h>
-#include<stdlib.h>
+#include <stdio.h>
 
-int main()
+int main() 
 {
-    int *a = (int *)malloc(sizeof(int));
-    int b = 20;
-
-    *a = 20;
-
-    printf("%d", a);
-    printf("\n%d", *a);
-
-    free(a);
-
+    int *a;
+    printf("sizeof(*int): %zu bytes\n", sizeof(a));
+    printf("sizeof(long long int): %zu bytes\n", sizeof(long long int));
     return 0;
 }

@@ -104,7 +104,7 @@ int pop(void)
 	if (top == NULL) 
 	{
         return -1;
-    }
+     }
     
 	int result;
 	result = top->num;

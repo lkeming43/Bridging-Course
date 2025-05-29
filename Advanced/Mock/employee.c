@@ -59,7 +59,7 @@ int main(void)
         else
         {
             ptr = first;
-            while (ptr->next != NULL && ptr->emp_no < temp->emp_no && ptr->next->emp_no < temp->emp_no)
+            while (ptr->next != NULL &&  ptr->next->emp_no < temp->emp_no)
             {
                 ptr = ptr->next;
             }
