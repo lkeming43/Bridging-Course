@@ -1,5 +1,5 @@
 #include<stdio.h>
-#define INTEREST 0.01
+#define INTEREST 0.0001
 
 void compute(int pay, double own);
 
@@ -18,7 +18,7 @@ int main()
     return 0;
 }
 
-/*void compute(int pay, double own)
+void compute(int pay, double own)
 {
     int i = 0;
 
@@ -29,9 +29,9 @@ int main()
     }
 
     printf("\n\n%d months are needed to repay the loan.", i);
-}*/
+}
 
-void compute(int pay, double own)
+/*void compute(int pay, double own)
 {
     static int i = 0;
 
@@ -43,5 +43,4 @@ void compute(int pay, double own)
     
     i++;
     compute(pay, own * INTEREST + own - pay);
-}
-
+}*/

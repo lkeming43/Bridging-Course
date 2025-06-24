@@ -15,7 +15,7 @@ int main() {
 
 #include <math.h>
 
-/*int zombie(double r0, int day) 
+int zombie(double r0, int day) 
 {
     int prev;
     if (day == 0) 
@@ -27,7 +27,7 @@ int main() {
         prev = zombie(r0, day - 1);
         return prev + (int)ceil(r0 * prev);
     }
-}*/
+}
 
 int zombie(double r0, int day) 
 {
